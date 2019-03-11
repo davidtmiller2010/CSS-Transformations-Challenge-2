@@ -1,0 +1,20 @@
+img {
+ margin: 50px;
+ width: 100px;
+ height: 100px;
+ animation-name: spin;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+ animation-duration: 5s;
+ animation-timing-function: linear
+ 
+}
+
+@keyframes spin { 
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
